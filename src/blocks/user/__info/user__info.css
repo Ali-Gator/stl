@@ -1,0 +1,15 @@
+.user__info {
+  display: grid;
+  flex-grow: 1;
+  margin: 1rem;
+  grid-template-columns: 280px 1fr;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+
+@media screen and (max-width: 630px) {
+  .user__info {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+}

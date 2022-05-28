@@ -1,17 +1,17 @@
 import React from 'react';
 
-const Select = ({defaultValue, options, value, onChange}) => {
+const Select = ({defaultValue, options, value, onChange, ...props}) => {
 
-  function handleSortClick(evt) {
+  function handleChange(evt) {
     onChange(evt.target.value);
   }
 
   return (
-    <select className="sort__list" value={value} onChange={handleSortClick}>
-      <option className="sort__item" value="" disabled>{defaultValue}</option>
+    <select className="select-list" value={value} onChange={handleChange} {...props}>
+      {defaultValue && <option className="select-list__item" value="" disabled>{defaultValue}</option>}
       {
         options.map(option => (
-          <option className="sort__item" key={option.value} value={option.value}>{option.title}</option>
+          <option className="select-list__item" key={option.value} value={option.value}>{option.title}</option>
         ))
       }
     </select>

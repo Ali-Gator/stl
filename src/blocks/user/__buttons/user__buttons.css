@@ -1,0 +1,15 @@
+.user__buttons {
+  display: flex;
+  max-width: 400px;
+  margin: 1rem;
+  column-gap: 1rem;
+}
+
+@media screen and (max-width: 630px) {
+  .user__buttons {
+    flex-grow: 1;
+    margin: 0.5rem;
+    column-gap: 0.5rem;
+
+  }
+}

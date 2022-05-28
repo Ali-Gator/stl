@@ -1,114 +1,22 @@
-.page {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+@import url('blocks/button/button.css');
+@import url('blocks/button/_type/button_type_delete.css');
+@import url('blocks/button/_type/button_type_save.css');
 
-.page__title {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 2rem auto 1.5rem;
-  padding: 0;
-  text-align: center;
-}
+@import url('blocks/page/page.css');
+@import url('blocks/page/__title/page__title.css');
+@import url('blocks/page/__filters/page__filters.css');
+@import url('blocks/page/__users/page__users.css');
 
-.page__filters {
-  width: 120px;
-  margin: 2rem 2rem 1rem auto;
-  text-align: right;
-}
+@import url('blocks/patch/patch.css');
+@import url('blocks/patch/__input/patch__input.css');
+@import url('blocks/patch/__buttons/patch__buttons.css');
 
-.page__users {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0 2rem;
-  list-style: none;
-  row-gap: 1rem;
-}
+@import url('blocks/select-list/select-list.css');
 
-.user {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 2px solid #4EADD3;
-  border-radius: 4px;
-}
-
-.user__info {
-  display: grid;
-  flex-grow: 1;
-  margin: 1rem;
-  grid-template-columns: 280px 1fr;
-  row-gap: 0.5rem;
-  column-gap: 0.5rem;
-}
-
-.user__data {
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
-}
-
-.user__country {
-  font-size: 0.8rem;
-  margin: 0;
-  padding: 0;
-}
-
-.user__phone {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: inherit;
-}
-
-.user__email {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: inherit;
-}
-
-.user__buttons {
-  display: flex;
-  margin: 1rem;
-  column-gap: 1rem;
-}
-
-.button {
-  font-family: inherit;
-  font-size: 0.9rem;
-  margin: 0;
-  padding: 10px 30px;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-.button:hover {
-  opacity: 0.6;
-}
-
-.button:active {
-  transform: scale(0.9);
-}
-
-.button_type_update {
-  background-color: transparent;
-}
-
-.button_type_delete {
-  background-color: #D35757;
-}
-
-.sort__list {
-  font-family: inherit;
-  padding: 0.6rem;
-  border: 1px solid #ccc;;
-  border-radius: 3px;
-}
+@import url('blocks/user/user.css');
+@import url('blocks/user/__buttons/user__buttons.css');
+@import url('blocks/user/__country/user__country.css');
+@import url('blocks/user/__data/user__data.css');
+@import url('blocks/user/__email/user__email.css');
+@import url('blocks/user/__info/user__info.css');
+@import url('blocks/user/__phone/user__phone.css');

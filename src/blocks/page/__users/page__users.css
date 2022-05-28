@@ -1,0 +1,14 @@
+.page__users {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 2rem;
+  list-style: none;
+  row-gap: 1rem;
+}
+
+@media screen and (max-width: 630px) {
+  .page__users {
+    padding: 0 1rem;
+  }
+}

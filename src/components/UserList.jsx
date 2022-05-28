@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import User from './User';
 import {CurrentUserContext} from '../contexts/CurrentUserContext';
 
-const UserList = ({onUserDelete}) => {
+const UserList = ({onUserDelete, onUserUpdateClick}) => {
 
   const users = useContext(CurrentUserContext);
 
@@ -10,7 +10,7 @@ const UserList = ({onUserDelete}) => {
     <ul className="page__users">
       {
         users.map(user => (
-          <User key={user.id.value} user={user} onUserDelete={onUserDelete}/>
+          <User key={user.id} user={user} onUserDelete={onUserDelete} onUserUpdate={onUserUpdateClick}/>
         ))
       }
     </ul>

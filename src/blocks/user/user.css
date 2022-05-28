@@ -1,0 +1,13 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #4EADD3;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 915px) {
+  .user {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,8 @@
+.patch__input {
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;;
+  border-radius: 3px;
+}
