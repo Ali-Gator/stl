@@ -1,22 +1,23 @@
 # Test task
 
-1. Generate new project with create react app
-2. Create new repo on your github or bitbucket account and put that project there
-3. The main task is:
+Generate new project with create react app
+Create new repo on your github or bitbucket account and put that project there
+The main task is:
 
-      ●	the App is consist of two pages.
-
-      ●	the main page contains the list of users with following info: name, phone, email, country, age.
-
-      ●	also each user needs to have 2 buttons - update and delete. So, when you click on delete button the user should be removed from the list. When you click update button - it should open new page with user’s details, which you can update and save updates.
+* the App is consist of two pages.
+* the main page contains the list of users with following info: name, phone, email, country, age.
+* also each user needs to have 2 buttons - update and delete. So, when you click on delete button the user should be
+  removed from the list. When you click update button - it should open new page with user’s details, which you can
+  update and save updates.
 
 So, that means we have one main page with the list of users and one details page.
 Details page - is a form. On that form we have 5 inputs:
-● Name - text input
-● Phone - text input
-● Email - text input
-● Country - select (let’s just put three options there: Australia, Russia, USA)
-● Age - number input.
+
+* Name - text input
+* Phone - text input
+* Email - text input
+* Country - select (let’s just put three options there: Australia, Russia, USA)
+* Age - number input.
 
 On main page, please add opportunity to sort users by name
 
