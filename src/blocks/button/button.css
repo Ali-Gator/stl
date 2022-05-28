@@ -6,6 +6,7 @@
   padding: 10px 30px;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  color: inherit;
   border: 1px solid #ccc;
   border-radius: 3px;
   background-color: transparent;
